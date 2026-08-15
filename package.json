@@ -1,0 +1,24 @@
+{
+  "name": "product-catalog-api",
+  "version": "1.0.0",
+  "description": "A production-minded REST API for managing an e-commerce product catalog.",
+  "main": "src/server.js",
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.18.0"
+  },
+  "devDependencies": {}
+}
